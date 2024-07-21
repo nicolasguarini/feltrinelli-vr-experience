@@ -1,30 +1,29 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class Cart : MonoBehaviour
 {
-    private List<CD> cartItems = new List<CD>();
+    private List<MediaItem> cartItems = new List<MediaItem>();
 
-    public void AddToCart(CD cd)
+    public void AddToCart(MediaItem item)
     {
-        if (!cartItems.Contains(cd))
+        if (!cartItems.Contains(item))
         {
-            cartItems.Add(cd);
-            Debug.Log($"{cd.cdName} added to cart. Price: {cd.price}");
+            cartItems.Add(item);
+            Debug.Log($"{item.itemName} added to cart. Price: {item.price}");
         }
         else
         {
-            Debug.Log($"{cd.cdName} is already in the cart.");
+            Debug.Log($"{item.itemName} is already in the cart.");
         }
     }
 
     public float CalculateTotal()
     {
         float total = 0f;
-        foreach (CD cd in cartItems)
+        foreach (MediaItem item in cartItems)
         {
-            total += cd.price;
+            total += item.price;
         }
         return total;
     }
