@@ -841,6 +841,17 @@
                 },
                 {
                     "name": "",
+                    "id": "61dbe9af-8907-4190-b505-6bb509d98d4a",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3b8b1b59-2fdc-4998-8259-50341075d9a2",
                     "path": "<XRController>{LeftHand}/{Trigger}",
                     "interactions": "",
