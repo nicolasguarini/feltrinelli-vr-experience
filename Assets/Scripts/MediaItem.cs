@@ -13,9 +13,7 @@ public class MediaItem : MonoBehaviour
 
     void Start()
     {
-        originalPosition = transform.position;
-        originalRotation = transform.rotation;
-
+        SaveOriginalTransform();
         cart = FindObjectOfType<Cart>();
     }
 
@@ -26,6 +24,21 @@ public class MediaItem : MonoBehaviour
         if (mediaItem != null && cart != null)
         {
             cart.AddToCart(mediaItem);
+            mediaItem.gameObject.SetActive(false);
         }
+    }
+
+    public void SaveOriginalTransform()
+    {
+        originalPosition = transform.position;
+        originalRotation = transform.rotation;
+        Debug.Log($"Saved original position {originalPosition} and rotation {originalRotation} for {itemName}");
+    }
+
+    public void RestoreOriginalTransform()
+    {
+        transform.position = originalPosition;
+        transform.rotation = originalRotation;
+        Debug.Log($"Restored original position {originalPosition} and rotation {originalRotation} for {itemName}");
     }
 }

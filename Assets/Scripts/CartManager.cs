@@ -35,6 +35,18 @@ public class CartManager : MonoBehaviour
         }
     }
 
+    public void RemoveItem(MediaItem item)
+    {
+        if (mediaItems.Contains(item))
+        {
+            mediaItems.Remove(item);
+            //item.transform.position = item.originalPosition;
+            //item.transform.rotation = item.originalRotation;
+            //item.gameObject.SetActive(true);
+            Debug.Log($"{item.itemName} removed from cart.");
+        }
+    }
+
     public float CalculateTotal()
     {
         float total = 0f;
