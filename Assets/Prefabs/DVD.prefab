@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1909382176444650890}
   - component: {fileID: 7409111491953558094}
   - component: {fileID: 8237431606466357731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DVD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
