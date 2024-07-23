@@ -7,8 +7,10 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Cart : MonoBehaviour
 {
     private CartManager cartManager;
-    public GameObject listItemPrefab; // Prefab di ListItem
-    public Transform content; // Contenitore per i ListItems
+    public GameObject listItemPrefab;
+    public Transform content;
+    public TextMeshProUGUI totalPriceText;
+    public TextMeshProUGUI nItemsText;
 
     void Start()
     {
@@ -39,13 +41,11 @@ public class Cart : MonoBehaviour
 
     public void UpdateCartDisplay()
     {
-        // Rimuovere gli elementi esistenti
         foreach (Transform child in content)
         {
             Destroy(child.gameObject);
         }
 
-        // Aggiungere nuovi elementi
         foreach (MediaItem item in cartManager.GetItems())
         {
             GameObject listItem = Instantiate(listItemPrefab, content);
@@ -56,6 +56,9 @@ public class Cart : MonoBehaviour
             Button removeButton = listItem.GetComponentInChildren<Button>();
             removeButton.onClick.AddListener(() => RemoveItemAndUpdate(item));
         }
+
+        totalPriceText.text = "$" + CalculateTotal().ToString("F2");
+        nItemsText.text = cartManager.GetItems().Count.ToString();
     }
 
     private void RemoveItemAndUpdate(MediaItem item)
