@@ -1229,6 +1229,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: 9498d0ef62ee34da5963e5402bfb918f, type: 3}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
       propertyPath: price
       value: 18
       objectReference: {fileID: 0}
@@ -1449,6 +1454,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CD (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: bec6877cf27a5498a8976cd504aae7ee, type: 3}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
       propertyPath: price
@@ -3140,6 +3150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: f1e5b49e5cae4431dbbbd77ad65e22f0, type: 3}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
       propertyPath: price
       value: 19.99
       objectReference: {fileID: 0}
@@ -3910,6 +3925,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: ec39c366bc6bd4fa8892f6ad427e97df, type: 3}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
       propertyPath: price
@@ -4797,6 +4817,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: afa5c288b78344a54b8c70400821df19, type: 3}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
       propertyPath: price
       value: 12
       objectReference: {fileID: 0}
@@ -5152,6 +5177,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CD (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: 8c37c2a28262942c19d48759084be6c5, type: 3}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
       propertyPath: price
@@ -7233,6 +7263,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: 00cb1be4664a64e1d8a686e145c9e029, type: 3}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
       propertyPath: price
       value: 12
       objectReference: {fileID: 0}
@@ -7319,6 +7354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CD (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e55e4481c94d42d394bcdaf4f30c2e0, type: 3}
     - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
       propertyPath: price
