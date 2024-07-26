@@ -40,9 +40,6 @@ public class CartManager : MonoBehaviour
         if (mediaItems.Contains(item))
         {
             mediaItems.Remove(item);
-            //item.transform.position = item.originalPosition;
-            //item.transform.rotation = item.originalRotation;
-            //item.gameObject.SetActive(true);
             Debug.Log($"{item.itemName} removed from cart.");
         }
     }
@@ -60,5 +57,16 @@ public class CartManager : MonoBehaviour
     public List<MediaItem> GetItems()
     {
         return mediaItems;
+    }
+
+    public int GetItemsCount()
+    {
+        return mediaItems.Count;
+    }
+
+    public void ClearCart()
+    {
+        mediaItems.Clear();
+        Debug.Log("Cart cleared.");
     }
 }
