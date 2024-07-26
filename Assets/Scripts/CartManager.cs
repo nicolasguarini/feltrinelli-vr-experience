@@ -7,6 +7,8 @@ public class CartManager : MonoBehaviour
 
     private List<MediaItem> mediaItems = new List<MediaItem>();
 
+    private bool hasVisitedFloor2 = false;
+
     private void Awake()
     {
         if (Instance == null)
@@ -68,5 +70,15 @@ public class CartManager : MonoBehaviour
     {
         mediaItems.Clear();
         Debug.Log("Cart cleared.");
+    }
+
+    public void SetHasVisitedFloor2(bool hasVisitedFloor2)
+    {
+        this.hasVisitedFloor2 = hasVisitedFloor2;
+    }
+
+    public bool GetHasVisitedFloor2()
+    {
+        return hasVisitedFloor2;
     }
 }

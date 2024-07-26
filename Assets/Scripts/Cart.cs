@@ -15,6 +15,7 @@ public class Cart : MonoBehaviour
     void Start()
     {
         cartManager = CartManager.Instance;
+        cartManager.SetHasVisitedFloor2(true);
         UpdateCartDisplay();
     }
 
