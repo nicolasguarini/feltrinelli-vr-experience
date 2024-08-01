@@ -28,15 +28,45 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3987573017982205970, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.216
+      objectReference: {fileID: 0}
     - target: {fileID: 4023829053569806261, guid: f3a89503491e74963bf8c6c0f64c2a4a,
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4618085655966403977, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902165661254916980, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013579685442125291, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.256
+      objectReference: {fileID: 0}
     - target: {fileID: 5334691653424514631, guid: f3a89503491e74963bf8c6c0f64c2a4a,
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440718720986761598, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611186093526126142, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.216
       objectReference: {fileID: 0}
     - target: {fileID: 6036337980022764486, guid: f3a89503491e74963bf8c6c0f64c2a4a,
         type: 3}
@@ -93,6 +123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DVD Table Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7058345867317539513, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.256
+      objectReference: {fileID: 0}
     - target: {fileID: 7412626636110401651, guid: f3a89503491e74963bf8c6c0f64c2a4a,
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
@@ -102,6 +137,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7883119552281820651, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 8162194255580530411, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8473247120239189652, guid: f3a89503491e74963bf8c6c0f64c2a4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.256
       objectReference: {fileID: 0}
     - target: {fileID: 9011919578619238002, guid: f3a89503491e74963bf8c6c0f64c2a4a,
         type: 3}
