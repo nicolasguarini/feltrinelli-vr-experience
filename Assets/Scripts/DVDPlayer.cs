@@ -6,8 +6,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class DVDPlayer : MonoBehaviour
 {
-    public VideoPlayer videoPlayer; // Assicurati di assegnare questo nell'Inspector
-    public PlayVideo playVideoScript; // Assicurati di assegnare questo nell'Inspector
+    public VideoPlayer videoPlayer;
+    public PlayVideo playVideoScript;
 
     private XRSocketInteractor socketInteractor;
 
