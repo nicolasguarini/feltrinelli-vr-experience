@@ -129,6 +129,123 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1676812004}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &67553055
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Universal Render Pipeline/Lit
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &76201426
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,7 +412,7 @@ PrefabInstance:
     - target: {fileID: 3746421076597752296, guid: 3e89fd4461ca14e2b8099d6a90c8edb3,
         type: 3}
       propertyPath: m_Name
-      value: DVD Table Variant
+      value: DVD Table
       objectReference: {fileID: 0}
     - target: {fileID: 4086496258688359250, guid: 3e89fd4461ca14e2b8099d6a90c8edb3,
         type: 3}
@@ -1151,7 +1268,7 @@ GameObject:
   - component: {fileID: 333970762}
   - component: {fileID: 333970761}
   m_Layer: 5
-  m_Name: Canvas (2)
+  m_Name: Info Canvas 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4632,7 +4749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playAtStart: 0
-  videoMaterial: {fileID: 1323942069}
+  videoMaterial: {fileID: 67553055}
   videoClips:
   - {fileID: 0}
 --- !u!1001 &888758857
@@ -5006,7 +5123,7 @@ GameObject:
   - component: {fileID: 932962739}
   - component: {fileID: 932962738}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Info Canvas 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5450,7 +5567,7 @@ PrefabInstance:
     - target: {fileID: 5062772805179541790, guid: 9d212ff47e36da14ab04befe7439b445,
         type: 3}
       propertyPath: m_Name
-      value: Control_Slider_Blue
+      value: Elevator
       objectReference: {fileID: 0}
     - target: {fileID: 5551044597084083108, guid: 9d212ff47e36da14ab04befe7439b445,
         type: 3}
@@ -7154,123 +7271,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1323942069
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Universal Render Pipeline/Lit
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1324951387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8917,7 +8917,7 @@ GameObject:
   - component: {fileID: 1629804662}
   - component: {fileID: 1629804661}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Info Canvas 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9658,6 +9658,27 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1909382176444650890, guid: 61ea0098d6d08453d8ad016be39e0287,
+        type: 3}
+      propertyPath: price
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1909382176444650890, guid: 61ea0098d6d08453d8ad016be39e0287,
+        type: 3}
+      propertyPath: video
+      value: 
+      objectReference: {fileID: 32900000, guid: 59de96da309844f6fba27a5afbe42f0d,
+        type: 3}
+    - target: {fileID: 1909382176444650890, guid: 61ea0098d6d08453d8ad016be39e0287,
+        type: 3}
+      propertyPath: director
+      value: 'Bong Joon-ho '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1909382176444650890, guid: 61ea0098d6d08453d8ad016be39e0287,
+        type: 3}
+      propertyPath: itemName
+      value: Parasite
+      objectReference: {fileID: 0}
     - target: {fileID: 2849607040786108929, guid: 61ea0098d6d08453d8ad016be39e0287,
         type: 3}
       propertyPath: m_Name
@@ -9828,6 +9849,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CD (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: ec39c366bc6bd4fa8892f6ad427e97df, type: 3}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: price
+      value: 12.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: artist
+      value: Green Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665654496649737002, guid: aa303bc357781441e866980d0e7a60c4,
+        type: 3}
+      propertyPath: itemName
+      value: Kerplunk
       objectReference: {fileID: 0}
     - target: {fileID: 3777912084710698223, guid: aa303bc357781441e866980d0e7a60c4,
         type: 3}
@@ -10103,7 +10144,7 @@ GameObject:
   - component: {fileID: 1798679736}
   - component: {fileID: 1798679735}
   m_Layer: 5
-  m_Name: Canvas (3)
+  m_Name: Info Canvas 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12066,9 +12107,9 @@ SceneRoots:
   - {fileID: 378158321}
   - {fileID: 1268076864}
   - {fileID: 7553769788695362992}
+  - {fileID: 1026957488}
   - {fileID: 1088727405}
   - {fileID: 1202375458}
-  - {fileID: 1026957488}
   - {fileID: 3075593104287833505}
   - {fileID: 322257083950362919}
   - {fileID: 1858437394}

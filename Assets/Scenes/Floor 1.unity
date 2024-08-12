@@ -2764,7 +2764,7 @@ GameObject:
   - component: {fileID: 702460645}
   - component: {fileID: 702460644}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Welcome Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5474,7 +5474,7 @@ PrefabInstance:
     - target: {fileID: 5062772805179541790, guid: 9d212ff47e36da14ab04befe7439b445,
         type: 3}
       propertyPath: m_Name
-      value: Control_Slider_Blue
+      value: Elevator
       objectReference: {fileID: 0}
     - target: {fileID: 5551044597084083108, guid: 9d212ff47e36da14ab04befe7439b445,
         type: 3}
